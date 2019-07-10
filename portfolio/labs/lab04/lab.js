@@ -53,7 +53,7 @@ $(function() {
             $('#i1').val(1);
             $('#i4').val(this.id);
 
-            if($(this).hasClass("club")){
+            if ($(this).hasClass("club")){
                 first='club';
             }else if ($(this).hasClass("hearts")) {
                 first='hearts';
@@ -80,8 +80,8 @@ $(function() {
             }
             $('#i3').val(second);
 
-            var myid1='#'+$('#i4').val();
-            var myid2='#'+$('#i5').val();
+            var myid1='#'+ $('#i4').val();
+            var myid2='#'+ $('#i5').val();
 
             if(first==second){
                 setTimeout(function(){
