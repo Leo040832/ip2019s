@@ -1,10 +1,8 @@
 
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0,0,512,512">
-
-
-
-
-  <circle cx="120" cy="1" r="40" fill="green" transform="translate(65,55)"></circle>
- <circle cx="150" cy="100" r="80" fill="green" transform="translate(100,50)"></circle>
- <circle cx="285" cy="1" r="40" fill="green" transform="translate(20,50)"></circle>
-/svg>
+<circle cx="120" cy="1" r="40" fill="" transform="translate(65,55)"></circle>
+ <circle cx="150" cy="100" r="80" fill="" transform="translate(100,50)"></circle>
+ <circle cx="285" cy="1" r="40" fill="n" transform="translate(20,50)"></circle>
+ 
+ 
+</svg>
