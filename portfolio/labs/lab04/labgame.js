@@ -7,20 +7,21 @@ $(function()   {
        
      
      switch (r) {
-       case 0:if (a>=4) {return;
+       case 0:if (a>=4) {i-1;
         
        }else 
          { a++ ; 
-         break;}
-       case 1:if (b>=4) {return;
+         }
+       case 1:if (b>=4) {i-1;
          
-       }else {b++ ;break;}
-        case 2:if (c>=4) {return;
+       }else {b++ ;}
+        case 2:if (c>=4) {i-1;
           
-        } else {c++ ;break;}
-         case 3:if (d>=4) {return;
+        } else {c++; }
+         case 3:if (d>=4) {i-1;
            
-         } else {d++; break;   }  }
+         } else {d++;  }
+           }
        
       $('#d2').append('<img class="issue" src="./'+card[r]+'">');
       }
