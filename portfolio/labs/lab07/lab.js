@@ -32,8 +32,19 @@ function analyze() {
       subs = remain.slice(m, n+1); // z 也要包含
       console.log('subs = ' + subs);
 
-      var path = image.path(subs).fill('none').stroke("red").draggable();
+      var subs2=subs.replace('440','480');
+      var subs2=subs2.replace('462','262');
 
+      var path = image.path(subs).fill('none').stroke({color:'red',width:5}).draggable();
+
+      path.plot(subs2).draggable();
+
+      var newPath=Snap.path.toCubic(subs);
+      console.log('newPath.length='+newPath.length);
+
+      newPath.array.forEach( function(element) {
+        console.log(element);
+      });
       remain = remain.slice(n+1); // z 也要移除
       //console.log('remain = ' + remain);
 
